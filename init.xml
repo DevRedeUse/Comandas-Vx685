@@ -1,0 +1,7 @@
+<INIT>
+
+<DATA DESTINATION=PARSER>
+
+    dofile('newMenu.lua')
+    ioSaldo()
+</DATA>

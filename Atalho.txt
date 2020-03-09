@@ -1,0 +1,21 @@
+    if get.REFRI == "5" then
+        echo ("<DATA DESTINATION=PARSER>")
+        echo (" dofile('newMenu.lua')")
+        echo (" prods()")
+        echo ("</DATA>")
+    end
+
+-------------------------------------------------------------------------------
+
+    echo ("<RECTANGLE NAME=1 X=35 Y=115 WIDTH=200 HEIGHT=50 VISIBLE=1>")
+    echo ("<RECTANGLE NAME=2 X=35 Y=185 WIDTH=200 HEIGHT=50 VISIBLE=1>")
+
+    echo "<CAPTURE NAME=OPC>"
+    echo "<GET TYPE=TOUCH>"
+    -- echo "<GET TYPE=TIMEOUT TIME=10 ACTION=CANCEL>"
+    echo "</CAPTURE>"
+
+-------------------------------------------------------------------------------
+
+COL=14 LIN=11
+
